@@ -38,4 +38,4 @@ chown www-data. /var/www/html/glpi/files -Rf
 
 echo "habilitando apache2 no inicializador ..."
 systemctl enable apache2
-systemctl restart apache2
+systemctl reload apache2
